@@ -1,0 +1,10 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  10656   744 ?        Ssl  10:53   0:00 /init
+root         4  0.0  0.0  10656   584 ?        Sl   10:53   0:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --socket-path /mnt/c/Users/Hp/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc/LocalState/fsserver --log-truncate
+root         7  0.0  0.0  10684   372 tty1     Ss   10:53   0:00 /init
+root         8  0.0  0.0  14244  4172 tty1     S    10:53   0:00 -bash
+root       219  0.0  0.0  10720   352 tty1     S    13:23   0:00 ./monitor
+root       342  0.0  0.0  10588   596 tty1     S    13:51   0:00 ./monitor
+root       343  0.0  0.0  10720   452 tty1     S    13:51   0:00 ./monitor
+root       344  0.0  0.0  10840   800 tty1     S    13:51   0:00 sh -c -- ps -aux > processes.txt
+root       345 10.0  0.0  17612  3116 tty1     R    13:51   0:00 ps -aux
